@@ -1,7 +1,7 @@
 {
-  "created_at": "",
-  "description": "",
-  "download_url": "",
-  "signature_download_url": "",
-  "version": ""
+    "created_at":  "",
+    "description":  "",
+    "download_url":  "https://github.com/Thewanwan/bestapp/releases/download/v1.0.0-dev/patches-1.0.0.mpp",
+    "signature_download_url":  "",
+    "version":  "1.0.0-dev"
 }
