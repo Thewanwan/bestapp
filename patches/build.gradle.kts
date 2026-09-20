@@ -1,14 +1,13 @@
-group = "app.template"
+group = "com.bestweb"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Bestweb Patches"
+        description = "Weibo ad blocking, supergroup hiding, and module settings patches"
+        source = "https://github.com/Thewanwan/bestapp"
+        author = "Thewanwan"
         contact = "na"
-        website = "na"
+        website = "https://github.com/Thewanwan/bestapp"
         license = "GPLv3"
     }
 }
@@ -18,6 +17,7 @@ patches {
 val patchListGeneratorClasspath = configurations.create("patchListGeneratorClasspath")
 
 dependencies {
+    implementation(libs.morphe.patches.library)
     compileOnly(libs.gson)
     patchListGeneratorClasspath(libs.gson)
 }
